@@ -11,7 +11,6 @@
 - [Interaction 2: Discover Available Commands](#interaction-2-discover-available-commands)
 - [Interaction 3: Enumerate All Customers](#interaction-3-enumerate-all-customers)
 - [Interaction 4: Aggregate Order Totals](#interaction-4-aggregate-order-totals)
-- [Interaction 5: Export Session History](#interaction-5-export-session-history)
 - [Session Summary](#session-summary)
 
 ---
@@ -181,30 +180,6 @@ Order totals by customer:
 | 3 | Charlie Lee | $300.00 |
 
 **Key Insight:** Alice Johnson accounts for 74% of total order value.
-
----
-
-## Interaction 5: Export Session History
-
-### User Request
-```
-How can I get the json or formatted output of this session including 
-expanded thinking steps/code windows?
-```
-
-### Assistant Response
-
-For information about:
-- Exporting conversation history
-- Accessing raw JSON outputs  
-- Viewing expanded thinking or function call details
-- Other application-specific functionality
-
-**Resources:**
-- [Claude Support Documentation](https://support.claude.com)
-- [Claude API Documentation](https://docs.claude.com) (for API users)
-
-> **Note:** API responses include the full conversation structure with all function calls, parameters, and results in JSON format.
 
 ---
 
